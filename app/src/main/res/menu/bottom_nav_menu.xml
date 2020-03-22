@@ -2,22 +2,22 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
       xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-            android:id="@+id/action_recents"
+            android:id="@+id/action_home"
             android:enabled="true"
-            android:icon="@drawable/ic_launcher_background"
-            android:title="Recents"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home"
             android:state_checked="true"
             app:showAsAction="ifRoom" />
     <item
-            android:id="@+id/action_favorites"
+            android:id="@+id/action_workouts"
             android:enabled="true"
-            android:icon="@drawable/ic_launcher_background"
-            android:title="Favorites"
+            android:icon="@drawable/ic_directions_run_black_24dp"
+            android:title="Workouts"
             app:showAsAction="ifRoom" />
     <item
-            android:id="@+id/action_nearby"
+            android:id="@+id/action_settings"
             android:enabled="true"
-            android:icon="@drawable/ic_launcher_background"
-            android:title="Nearby"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings"
             app:showAsAction="ifRoom" />
 </menu>
